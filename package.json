@@ -1,9 +1,11 @@
 {
-  "name": "meu-projeto",
+  "name": "sales-order-backend",
   "version": "1.0.0",
-  "description": "Welcome to your new CAP project.",
+  "description": "A simple CAO project.",
   "main": "index.js",
   "scripts": {
+    "start": "cds-serve",
+    "dev" : "cds watch"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
