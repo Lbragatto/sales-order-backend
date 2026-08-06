@@ -3,9 +3,10 @@
         "requires": {
             "db": {
                 "credentials":{
-                    "database": "memory:"                
-                }
-            }"kind": "sqlite"
+                    "database ": ":memory:"                
+                },
+             "kind": "sqlite"   
+            }
         
         }
     }
