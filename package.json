@@ -1,17 +1,19 @@
 {
   "name": "sales-order-backend",
   "version": "1.0.0",
-  "description": "A simple CAO project.",
+  "description": "A simple CAP project.",
   "main": "index.js",
   "scripts": {
     "start": "cds-serve",
-    "dev" : "cds watch"
+    "dev": "cds watch",
+    "deploydb": "npx cds deploy --to sqlite:db.sqlite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@cap-js/sqlite": "^3.0.2",
     "@sap/cds": "^10.0.5",
     "express": "^5.2.1"
   }

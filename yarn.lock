@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@cap-js/db-service@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@cap-js/db-service/-/db-service-3.0.1.tgz#6c0f0f2a2e4e35aae29e330b665e19f6c7126fc1"
+  integrity sha512-sWy+EYyfY7YzJspKcGqln4gWNVffcRwd/vm47T+tMa85+LWtOsmJgdfH8i1KVCR3o8zaywmPwSflnnSOKoZJkg==
+
+"@cap-js/sqlite@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@cap-js/sqlite/-/sqlite-3.0.2.tgz#e2d49e99122fd883b21e3677f885b5c80a990124"
+  integrity sha512-C+wiMzRxgmNF919ZcIjXPlAGlgunXUzPAldp5WMZ4fmb+komfADMmdUzYqS1LklnBXBkdxrKlP30giNTutPwpg==
+  dependencies:
+    "@cap-js/db-service" "^3.0.1"
+
 "@sap/cds-compiler@^7":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@sap/cds-compiler/-/cds-compiler-7.0.3.tgz#810eb3f50430dd1c4f11011a99d20ff2bd0dd67a"
